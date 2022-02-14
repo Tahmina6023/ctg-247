@@ -1,0 +1,28 @@
+.modal-body{
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-between;
+    display: flex;
+}
+.btn-check:focus+.btn-light, .btn-light:focus {
+    color: #000;
+    background-color: #f9fafb;
+    border: 2px solid #eeeeee;
+    box-shadow: none!important;
+}
+.main{
+    display: block!important;
+    width: 200px;
+    margin: auto;
+}
+.main:hover{
+    background-color:#eeeeee!important;
+}
+.bg-siccess{
+    height: 100vh;
+    width: 100vw;
+}
+.modal-content{
+    width: 80%!important;
+}
